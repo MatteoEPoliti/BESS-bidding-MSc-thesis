@@ -23,8 +23,7 @@ an artefact of the extra degree of freedom.
 ## Why regimes
 
 Balancing-price volatility spikes sharply as net zonal imbalance approaches
-zero: from ~35 €/MWh in normal conditions to ~71 €/MWh at the peak. Following
-Taylor, when the system's balancing need is small relative to available
+zero. When the system's balancing need is small relative to available
 capacity the market is competitive and a single operator risks exclusion,
 not price-making. **Thin** is therefore defined as |zonal imbalance| ≤ 50 MWh
 — a conservative band containing the empirical peak — and **thick** as
@@ -66,6 +65,9 @@ accuracy and 0.50 BA.
 
 Both strategies share identical price logic, acceptance proxy and market-share
 constraint, so the P&L difference is attributable to the regime signal alone.
+While in a Single-Price scheme the risk is to flip the imbalance sign (BRUNINX), 
+in the Italian (pay as bid) balancing market the risk is to be excluded 
+from the auction.
 
 **A — all-or-nothing benchmark.** Bid = yesterday's MB price, offered only if
 it beats the PUN. BESS 10 MW, Q = 2.5 MWh per quarter-hour. Price acceptance
