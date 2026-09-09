@@ -46,7 +46,7 @@ seasonally (Hosseini), real UVAM offers clustering near 400 €/MWh with a
 | GME     | Zonal day-ahead prices                                       |
 | ENTSO-E | RES, load, generation by type — BZN IT-North                 |
 
-122,588 quarter-hourly slots on a canonical index. Train up to Dec 2025,
+Quarter-hourly slots on a canonical index. Train up to Dec 2025,
 test on 2026.
 
 Features are lagged to their real publication calendar: 24 h for imbalance,
