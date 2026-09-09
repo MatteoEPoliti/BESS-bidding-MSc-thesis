@@ -1,4 +1,4 @@
-# Market regime-aware BESS bidding: an ex-ante thin-market detection algorithm for the italian MB
+# Market regime-aware BESS bidding: an ex-ante thin-market detection algorithm for the Italian MB
 
 MSc thesis in Energy Engineering, Politecnico di Milano — defence Dec 2026.
 Backtested on public TERNA, GME and ENTSO-E data (Jan 2023 – Jun 2026, IT-North).
@@ -16,6 +16,7 @@ classifier captures little of it.
 
 A permutation control (random thin/thick labels) rules out the gain being
 an artefact of the extra degree of freedom.
+<img width="1443" height="497" alt="image" src="https://github.com/user-attachments/assets/dff30f1b-d9c0-4520-a67e-7b5fe566bdf7" />
 
 ---
 
@@ -29,7 +30,7 @@ not price-making. **Thin** is therefore defined as |zonal imbalance| ≤ 50 MWh
 — a conservative band containing the empirical peak — and **thick** as
 everything else.
 
-<!-- img/thin_market_detection.png -->
+<img width="816" height="498" alt="image" src="https://github.com/user-attachments/assets/3b9e47c3-57c7-4961-99c3-a98e7fcb5013" />
 
 The literature bids statically: calendar price patterns with a fixed
 ex-post-optimised margin (Canevese), templated price menus updated
@@ -75,6 +76,7 @@ acceptance only if q ≤ θ·|V| with θ = 2%. Result: **75,782 €**, 3.4% acce
 per regime. Optimal α is 0.20 thin / 1.00 thick with the true label, and
 0.65 / 1.00 with the predicted one — α moves toward 1 as the rational
 response to classifier uncertainty.
+<img width="577" height="408" alt="image" src="https://github.com/user-attachments/assets/0dce1838-b12a-4b11-adea-eeb55c88318d" />
 
 ---
 
