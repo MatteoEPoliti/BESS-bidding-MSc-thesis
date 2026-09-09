@@ -32,9 +32,9 @@ everything else.
 <img width="816" height="498" alt="image" src="https://github.com/user-attachments/assets/3b9e47c3-57c7-4961-99c3-a98e7fcb5013" />
 
 The literature bids statically: calendar price patterns with a fixed
-ex-post-optimised margin (Canevese), templated price menus updated
-seasonally (Hosseini), real UVAM offers clustering near 400 €/MWh with a
-0.05% acceptance rate (Schwidtal). None conditions on market state.
+ex-post-optimised margin (CANAVESE), templated price menus updated
+seasonally (HOSSEINI), real UVAM offers clustering near 400 €/MWh with a
+0.05% acceptance rate (SCHWIDTAL). None conditions on market state.
 
 ---
 
@@ -94,7 +94,7 @@ response to classifier uncertainty.
 ## Next
 
 - **FEES API** (preliminary imbalance and prices every 15 min): cuts feature
-  lag from 16 to 2–4 quarter-hours — the single largest improvement available
+  lag from 96 to 2–4 quarter-hours — the single largest improvement available
 - Settlement-accepted volumes instead of the synthetic stack
 - SoC constraint and cycle cost in the backtest (crossover c\* ≈ 27 €/MWh)
 
