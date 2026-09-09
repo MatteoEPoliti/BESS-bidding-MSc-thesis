@@ -16,6 +16,7 @@ classifier captures little of it.
 
 A permutation control (random thin/thick labels) rules out the gain being
 an artefact of the extra degree of freedom.
+
 <img width="1443" height="497" alt="image" src="https://github.com/user-attachments/assets/dff30f1b-d9c0-4520-a67e-7b5fe566bdf7" />
 
 ---
@@ -78,7 +79,8 @@ acceptance only if q ≤ θ·|V| with θ = 2%. Result: **75,782 €**, 3.4% acce
 per regime. Optimal α is 0.20 thin / 1.00 thick with the true label, and
 0.65 / 1.00 with the predicted one — α moves toward 1 as the rational
 response to classifier uncertainty.
-<img width="577" height="408" alt="image" src="https://github.com/user-attachments/assets/0dce1838-b12a-4b11-adea-eeb55c88318d" />
+
+<img width="940" height="643" alt="image" src="https://github.com/user-attachments/assets/dc50ec60-899d-4d7b-82e0-9d84fb8602d3" />
 
 ---
 
